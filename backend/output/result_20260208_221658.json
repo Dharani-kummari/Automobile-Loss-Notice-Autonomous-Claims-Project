@@ -1,0 +1,28 @@
+{
+    "extractedFields": {
+        "policyNumber": null,
+        "policyholderName": null,
+        "effectiveDates": null,
+        "incidentDate": null,
+        "incidentTime": null,
+        "location": null,
+        "description": "",
+        "claimant": null,
+        "thirdParties": null,
+        "contactDetails": [],
+        "assetType": null,
+        "assetID": null,
+        "estimatedDamage": null,
+        "claimType": "vehicle",
+        "attachments": null,
+        "initialEstimate": null
+    },
+    "missingFields": [
+        "policyNumber",
+        "policyholderName",
+        "incidentDate",
+        "estimatedDamage"
+    ],
+    "recommendedRoute": "Manual Review",
+    "reasoning": "Mandatory fields are missing"
+}

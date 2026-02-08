@@ -1,0 +1,15 @@
+{
+    "extractedFields": {
+        "policyNumber": "6789",
+        "policyholderName": "dharani",
+        "incidentDate": "2026-02-05",
+        "incidentTime": "23:36",
+        "location": "Hyderabad, Telangana, IND",
+        "description": "gjv,jgyfy fyug u gu",
+        "estimatedDamage": 1600,
+        "claimType": "vehicle"
+    },
+    "missingFields": [],
+    "recommendedRoute": "Fast-track",
+    "reasoning": "Low estimated damage"
+}

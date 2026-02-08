@@ -1,0 +1,23 @@
+{
+    "extractedFields": {
+        "policyNumber": "6789",
+        "policyholderName": "dharani",
+        "effectiveDates": null,
+        "incidentDate": "2026-02-11",
+        "incidentTime": "22:17",
+        "location": "Hyderabad, Andhra Pradesh",
+        "description": "rtyuiokmnbvgc",
+        "claimant": null,
+        "thirdParties": null,
+        "contactDetails": null,
+        "assetType": null,
+        "assetID": null,
+        "estimatedDamage": 2000,
+        "claimType": "vehicle",
+        "attachments": null,
+        "initialEstimate": null
+    },
+    "missingFields": [],
+    "recommendedRoute": "Fast-track",
+    "reasoning": "Low estimated damage"
+}

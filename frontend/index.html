@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Automobile Loss Notice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Automobile Loss Notice Form</h2>
+
+<form id="claimForm">
+    <input type="text" placeholder="Policy Number" id="policyNumber" required>
+    <input type="text" placeholder="Policyholder Name" id="policyholderName" required>
+    <input type="date" id="incidentDate" required>
+    <input type="time" id="incidentTime">
+    <input type="text" placeholder="Location" id="location">
+    <textarea placeholder="Description" id="description"></textarea>
+    <input type="number" placeholder="Estimated Damage" id="estimatedDamage" required>
+    
+    <select id="claimType">
+        <option value="vehicle">Vehicle</option>
+        <option value="injury">Injury</option>
+    </select>
+
+    <button type="submit">Submit Claim</button>
+</form>
+<h3>Or Paste ACORD Form Text</h3>
+<form id="acordForm">
+    <textarea id="acordText" placeholder="Paste ACORD form text here" rows="10"></textarea>
+    <button type="submit">Submit ACORD Form</button>
+</form>
+<pre id="output"></pre>
+
+<script src="auto.js"></script>
+</body>
+</html>
